@@ -97,7 +97,7 @@ function QuotationTable({ data, deleteByIndex, deleteAll }) {
               <TableCell colSpan={4} align="right" sx={{ fontWeight: "bold" }}>
                 Total
               </TableCell>
-              <TableCell align="right">{total}</TableCell>
+              <TableCell align="right">{total - totalDiscount}</TableCell>
             </TableRow>
           </TableBody>
         </Table>
